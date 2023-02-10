@@ -486,7 +486,7 @@ function frida_script() { if(arguments.length) return new Error().line;
 				<div>
 					<!--------------------------------------------------------------------------------------------------------------------------------------------------->
 					<div v-show="tabValue==='Global'">
-						<h2 id="name" class="fun-block__title" style="padding-top: 20px;"><center>Cheat By HuyackersTeam</center></h2>						
+						<h2 id="name" class="fun-block__title" style="padding-top: 20px;"><center>Cheat By ayarza</center></h2>						
 					</div>
 					<div v-show="tabValue==='Visual'">
 						<h3 id="name" class="fun-block__title" style="padding-top: 20px;"><center>Cheat By HuyackersTeam</center></h3>
@@ -522,7 +522,7 @@ function frida_script() { if(arguments.length) return new Error().line;
 							<br>
 							<p style="margin-left: 10px;">Circle Radius:</p>
 							<br>
-							<van-slider v-model="VisualSlider.CircleRadiusSlider" style="width: 91%; margin-left: 15px;" :min="10" :max="200"></van-slider>
+							<van-slider v-model="VisualSlider.CircleRadiusSlider" style="width: 95%; margin-left: 15px;" :min="10" :max="200"></van-slider>
 							<br>													   
 							<van-checkbox v-model="GlobalCheckbox.FovHook" style="margin-left: 10px;" icon-size="25px" onclick="FovHookVoid()" >Fov</van-checkbox>
 							<br>
@@ -677,4 +677,4 @@ function frida_script() { if(arguments.length) return new Error().line;
 
 </body>
 
-</html>
+</htlm>
